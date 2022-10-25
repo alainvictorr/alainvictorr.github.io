@@ -1,9 +1,9 @@
 body {
+  --text-color: #222;
+  --bkg-color: #fff;
   margin: 0;
   padding: 40px 0 0 0;
   font-family: sans-serif;
-  --text-color: #222;
-  --bkg-color: #fff;
   line-height: 140%;
 }
 body.dark-theme {
@@ -193,11 +193,6 @@ small {
     display: block;
 }
 
-p,
-[class^="hvr-"] {
-    font-family: 'Roboto', sans-serif;
-}
-
 [class^="hvr-"] {
   margin: .4em;
   padding: 1em;
@@ -282,11 +277,6 @@ a {
 
 .effects {
   margin-top: 6em;
-}
-
-h1 {
-  text-align: center;
-  font-size: 3em;
 }
 
 h2 {
