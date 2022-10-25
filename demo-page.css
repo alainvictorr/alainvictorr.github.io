@@ -36,6 +36,10 @@ p {
   color: var(--text-color);
 }
 
+h2,
+h3 {
+  color: var(--text-color);
+
 hr {
   margin-top: 2em;
   background-color: #ddd;
